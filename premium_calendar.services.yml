@@ -1,3 +1,4 @@
 services:
   premium_calendar:
     class: Drupal\premium_calendar\CalendarService
+  arguments: ['@language_manager', '@module_handler']

@@ -11,6 +11,7 @@ dependencies:
   - date_recur:date_recur
   - date_recur_modular:date_recur_modular
   - fullcalendar:fullcalendar
+  - premium_tools:premium_layout_builder_restrictions
   - styles:styles
 
 interface translation project: premium_calendar
