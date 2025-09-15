@@ -6,10 +6,9 @@ version: '1.0'
 package: Drupal Premium
 
 dependencies:
-  - core:datetime
-  - core:datetime_range
   - core:layout_builder
   - color_field:color_field
+  - date_recur:date_recur
   - fullcalendar:fullcalendar
   - styles:styles
 
