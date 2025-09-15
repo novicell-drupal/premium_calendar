@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: calendar
+label: Calendar
+revision: false
+description: 'A block that shows a calendar of events.'

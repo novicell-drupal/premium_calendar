@@ -1,0 +1,19 @@
+premium_calendar:
+  js:
+    js/premium_calendar.js: { }
+  dependencies:
+    - fullcalendar/fullcalendar
+    - fullcalendar/fullcalendar.locale
+    - core/drupal
+    - core/drupalSettings
+    - core/once
+
+styles.calendar:
+  css:
+    theme:
+      css/calendar.css: {}
+
+styles.event:
+  css:
+    theme:
+      css/event.css: {}

@@ -1,0 +1,41 @@
+div.styles--preview.styles--preview--object.styles--preview--event--auto,
+div.styles--preview.styles--preview--object.styles--preview--event--block,
+div.styles--preview.styles--preview--object.styles--preview--event--list-item,
+div.styles--preview.styles--preview--object.styles--preview--event--background,
+div.styles--preview.styles--preview--object.styles--preview--event--inverse-background,
+div.styles--preview.styles--preview--object.styles--preview--event--none {
+  width: 120px;
+}
+div.styles--preview--event--auto div,
+div.styles--preview--event--block div,
+div.styles--preview--event--list-item div,
+div.styles--preview--event--background div,
+div.styles--preview--event--inverse-background div,
+div.styles--preview--event--none div {
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+div.styles--preview--object div.event--auto {
+  background-image: url(../misc/images/auto-event.png);
+}
+
+div.styles--preview--object div.event--block {
+  background-image: url(../misc/images/block-event.png);
+}
+
+div.styles--preview--object div.event--list-item {
+  background-image: url(../misc/images/list-event.png);
+}
+
+div.styles--preview--object div.event--background {
+  background-image: url(../misc/images/background-event.png);
+}
+
+div.styles--preview--object div.event--inverse-background {
+  background-image: url(../misc/images/inverse-background-event.png);
+}
+
+div.styles--preview--object div.event--none {
+  background-image: url(../misc/images/none-event.png);
+}

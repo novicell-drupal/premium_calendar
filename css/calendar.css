@@ -1,0 +1,41 @@
+div.styles--preview.styles--preview--object.styles--preview--calendar--dayGridMonth,
+div.styles--preview.styles--preview--object.styles--preview--calendar--timeGridWeek,
+div.styles--preview.styles--preview--object.styles--preview--calendar--listWeek,
+div.styles--preview.styles--preview--object.styles--preview--calendar--dayGridWeek,
+div.styles--preview.styles--preview--object.styles--preview--calendar--multiMonthYear,
+div.styles--preview.styles--preview--object.styles--preview--calendar--multiMonthYear-grid {
+  width: 120px;
+}
+div.styles--preview--calendar--dayGridMonth div,
+div.styles--preview--calendar--timeGridWeek div,
+div.styles--preview--calendar--listWeek div,
+div.styles--preview--calendar--dayGridWeek div,
+div.styles--preview--calendar--multiMonthYear div,
+div.styles--preview--calendar--multiMonthYear-grid div {
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+div.styles--preview--object div.calendar--dayGridMonth {
+  background-image: url(../misc/images/month-view.png);
+}
+
+div.styles--preview--object div.calendar--timeGridWeek {
+  background-image: url(../misc/images/timegrid-view.png);
+}
+
+div.styles--preview--object div.calendar--listWeek {
+  background-image: url(../misc/images/list-view.png);
+}
+
+div.styles--preview--object div.calendar--dayGridWeek {
+  background-image: url(../misc/images/daygrid-view.png);
+}
+
+div.styles--preview--object div.calendar--multiMonthYear {
+  background-image: url(../misc/images/multimonth-stack.png);
+}
+
+div.styles--preview--object div.calendar--multiMonthYear-grid {
+  background-image: url(../misc/images/multimonth-grid.png);
+}

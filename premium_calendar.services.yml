@@ -1,0 +1,3 @@
+services:
+  premium_calendar:
+    class: Drupal\premium_calendar\CalendarService

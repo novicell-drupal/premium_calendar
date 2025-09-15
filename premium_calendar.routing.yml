@@ -1,0 +1,7 @@
+premium_calendar.type:
+  path: '/calendar/type/{taxonomy_term}'
+  defaults:
+    _controller: '\Drupal\premium_calendar\Controller\SourceController::eventsOfType'
+    _title: 'Calendar'
+  requirements:
+    _access: 'TRUE'

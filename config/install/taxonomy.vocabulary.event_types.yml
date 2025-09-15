@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Event types'
+vid: event_types
+description: 'The available types of events.'
+weight: 0
+new_revision: false

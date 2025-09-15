@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.calendar
+    - field.field.block_content.calendar.field_display
+    - field.field.block_content.calendar.field_event_types
+id: block_content.calendar.default
+targetEntityType: block_content
+bundle: calendar
+mode: default
+content: {  }
+hidden:
+  field_display: true
+  field_event_types: true
+  langcode: true
+  search_api_excerpt: true

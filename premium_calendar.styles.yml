@@ -1,0 +1,24 @@
+calendar_style:
+  label: Calendar style
+  preview_libraries:
+    - styles/styles.preview
+    - premium_calendar/styles.calendar
+  preview_style: object
+  styles:
+    calendar--dayGridMonth: Month
+    calendar--timeGridWeek: Time grid
+    calendar--listWeek: List
+    calendar--dayGridWeek: Day grid
+
+event_display:
+  label: Event display
+  preview_libraries:
+    - styles/styles.preview
+    - premium_calendar/styles.event
+  preview_style: object
+  styles:
+    event--auto: Auto
+    event--block: Block
+    event--list-item: List item
+    event--background: Background
+    event--inverse-background: Inverse background
