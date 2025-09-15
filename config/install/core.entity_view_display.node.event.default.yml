@@ -14,8 +14,6 @@ dependencies:
     - metatag
     - text
     - user
-_core:
-  default_config_hash: gqJqpyNCq7YZPVWqahRGv1SJK0cYTKUDgvyK_n61CdU
 id: node.event.default
 targetEntityType: node
 bundle: event
