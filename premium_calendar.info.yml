@@ -9,6 +9,7 @@ dependencies:
   - core:layout_builder
   - color_field:color_field
   - date_recur:date_recur
+  - date_recur_modular:date_recur_modular
   - fullcalendar:fullcalendar
   - styles:styles
 
