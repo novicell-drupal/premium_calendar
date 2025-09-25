@@ -2,7 +2,7 @@ name: Premium Calendar
 description: Adds an Event content type and a Calendar layout block.
 type: module
 core_version_requirement: ^9 || ^10 || ^11
-version: '1.0'
+version: '1.2'
 package: Drupal Premium
 
 dependencies:
