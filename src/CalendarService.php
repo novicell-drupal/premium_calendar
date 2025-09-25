@@ -5,6 +5,7 @@ use Drupal\block_content\Entity\BlockContent;
 use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\Core\Field\EntityReferenceFieldItemList;
 use Drupal\Core\Language\LanguageManagerInterface;
+use Drupal\Core\Url;
 
 class CalendarService {
 
@@ -23,7 +24,7 @@ class CalendarService {
     $this->moduleHandler = $moduleHandler;
   }
 
-  function getCalendarOptions(BlockContent $block) {
+  function getCalendarOptions(BlockContent $block, $absolute = FALSE) {
     $settings = ['options' => []];
     $settings['options']['locale'] = $this->languageManager->getCurrentLanguage()->getId();
     $settings['options']['timeZone'] = date_default_timezone_get();
@@ -34,8 +35,9 @@ class CalendarService {
       $terms = $field->referencedEntities();
       /** @var \Drupal\taxonomy\Entity\Term $term */
       foreach ($terms as $term) {
+        $url = Url::fromRoute('premium_calendar.type', ['taxonomy_term' => $term->id()]);
         $settings['options']['eventSources'][] = [
-          'url' => '/calendar/type/' . $term->id(),
+          'url' => $url->setAbsolute($absolute)->toString(),
           'color' => $term->get('field_background_color')->getString(),
           'textColor' => $term->get('field_text_color')->getString()
         ];

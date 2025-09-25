@@ -61,7 +61,7 @@ function premium_calendar_entity_transform_alter(&$transformation) {
     if ($transformation['bundle'] == 'calendar') {
       /** @var \Drupal\premium_calendar\CalendarService $calendarService */
       $calendarService = \Drupal::service('premium_calendar');
-      $settings = $calendarService->getCalendarOptions($block);
+      $settings = $calendarService->getCalendarOptions($block, TRUE);
 
       $transformation['settings'] = $settings;
     }
